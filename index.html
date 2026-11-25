@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Search engines & link previews read THESE tags (they do not run JavaScript).
+       Site URL: https://armannejati3264.github.io/ -->
+  <title>Amir Arman Nejati | Mechanical Engineering</title>
+  <meta name="description" content="Amir Arman Nejati, B.Sc. student in Mechanical Engineering at Amirkabir University of Technology (Tehran Polytechnic). Interests: fluid mechanics, CFD, heat transfer and energy conversion.">
+  <meta name="author" content="Amir Arman Nejati">
+  <link rel="canonical" href="https://armannejati3264.github.io/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Amir Arman Nejati">
+  <meta property="og:title" content="Amir Arman Nejati | Mechanical Engineering">
+  <meta property="og:description" content="B.Sc. Mechanical Engineering, Amirkabir University of Technology. Fluid mechanics, CFD, heat transfer and energy conversion.">
+  <meta property="og:url" content="https://armannejati3264.github.io/">
+  <meta property="og:image" content="https://armannejati3264.github.io/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Amir Arman Nejati, Mechanical Engineering">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111418" media="(prefers-color-scheme: dark)">
+
+  <!-- Apply the saved theme before the page paints (avoids a white flash in dark mode). -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="content.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#about">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a class="nav-brand" href="#about">A. A. Nejati</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#honors">Honors</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Section shells. Their content is filled from content.js by assets/js/main.js. -->
+  <main class="container">
+    <section id="about" class="hero" aria-label="About"></section>
+
+    <section id="interests">
+      <h2>Research Interests</h2>
+      <div data-render="interests"></div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div data-render="education"></div>
+    </section>
+
+    <section id="projects">
+      <h2>Research &amp; Projects</h2>
+      <div data-render="projects"></div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <div data-render="publications"></div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <h3 class="subhead">Teaching</h3>
+      <div data-render="teaching"></div>
+      <h3 class="subhead">Industry</h3>
+      <div data-render="industry"></div>
+    </section>
+
+    <section id="honors">
+      <h2>Honors &amp; Awards</h2>
+      <div data-render="honors"></div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div data-render="skills"></div>
+    </section>
+
+    <section id="cv">
+      <h2>CV</h2>
+      <div data-render="cv"></div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div data-render="contact"></div>
+    </section>
+
+    <noscript><p>This page needs JavaScript to show its content.</p></noscript>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container" data-render="footer"></div>
+  </footer>
+</body>
+</html>
